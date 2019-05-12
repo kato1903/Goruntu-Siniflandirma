@@ -31,7 +31,7 @@ num_trees = 100
 test_size = 0.20
 
 # Her bir sınıfdaki örnek sayısı
-class_count = 20
+class_ex_count = 20
 
 # Makine öğrenmesi algoritmaları için özellik oluşturucular
 
@@ -72,7 +72,7 @@ for training_name in train_labels:
     k = 1
     
     # Her bir sınıf için okuma
-    for x in range(1,class_count+1):
+    for x in range(1,class_ex_count+1):
         # get the image file name
         file = dir + "/" + str(x) + ".jpg"
         print(file)
